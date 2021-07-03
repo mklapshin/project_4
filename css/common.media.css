@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+    #footer {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+
+    #footer-work {
+        padding-top: 47px;
+        padding-bottom: 64px;
+    }
+
+    .footer-work-left {
+        max-width: 50%;
+    }
+
+    .footer-work-right > .lets-talk {
+        padding: 5px 30px;
+    }
+
+    .footer-contacts-ul {
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+
+    .footer-contacts-item {
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 375px) {
+    #footer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    #footer-work {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+
+    .footer-work-left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .footer-work-left h3 {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 18px;
+    }
+
+    .footer-work-left p {
+        margin-bottom: 40px;
+    }
+
+    .footer-work-right {
+        justify-content: center;
+    }
+
+    #footer-contacts {
+        margin: 32px 0;
+    }
+
+    .footer-contacts-item {
+        padding-bottom: 17px;
+    }
+
+    #footer-right {
+        padding-bottom: 32px;
+        text-align: center;
+    }
+}

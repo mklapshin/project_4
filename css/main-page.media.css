@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    #header {
+        margin: 34px 0 120px 0;
+    }
+
+    #content-block1 {
+        background-size: 336px;
+        background-position: bottom 300px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    #our-help {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 127px;
+    }
+
+    .our-help-item {
+        margin-bottom: 32px;
+    }
+
+    .smart-home img {
+        max-width: 100%;
+    }
+
+    .sparklite-car > .our-finished-project-item {
+        max-width: 47%;
+    }
+
+    .sparklite-car > .our-finished-project-item img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: auto;
+        padding-bottom: 41px;
+        margin-bottom: 48px;
+    }
+
+    #content-block1 {
+        background-image: none;
+    }
+
+    #header {
+        margin: 24px 0 36px 0;
+    }
+
+    #about-us {
+        text-align: center;
+    }
+
+    #about-us p {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    .h1-title-index {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 0.04em;
+        margin-bottom: 12px;
+    }
+
+    .see-our-project {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 10px 15px;
+    }
+
+    .our-help-title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+    .our-help-item-header {
+        margin: 40px auto;
+    }
+
+    #our-help {
+        margin-bottom: 64px;
+    }
+
+    #our-finished-project h3 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+    .our-finished-project-item {
+        margin-bottom: 16px;
+    }
+
+    .smart-home p {
+        top: 16px;
+        right: 16px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+    }
+
+    .sparklite-car {
+        flex-direction: column;
+    }
+
+    .sparklite-car > .our-finished-project-item {
+        max-width: 100%;
+    }
+
+    .sparklite-app p {
+        top: 26px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .car-repetition-app p {
+        top: 26px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    #content-block3 {
+        margin-bottom: 64px;
+    }
+}
