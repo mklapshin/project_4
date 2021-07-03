@@ -1,0 +1,38 @@
+#contacts-content {
+    margin-bottom: 50px;
+}
+
+.contacts-submit-button {
+    margin: 10px 0;
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.h2-title-contacts {
+     font-weight: 500;
+     font-size: 44px;
+     text-align: center;
+ }
+
+.form-item-element {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+#address-address-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map iframe {
+    min-width: 100%;
+}
